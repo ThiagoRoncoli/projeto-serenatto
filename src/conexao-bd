@@ -1,0 +1,8 @@
+<?php 
+
+/* aqui estamos crianda a conexão com o banco com o pdo, no dbname passamos o nome do banco que queremos conectar
+depois o nome do nosso user e a senha que definimos la no banco */
+$pdo = new PDO('mysql:host=localhost;dbname=serenatto', 'root', '14052005');
+
+
+?>
